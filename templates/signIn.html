@@ -1,0 +1,19 @@
+<ion-view title="Sign In" id="page1">
+  <ion-content padding="true" style="background: url(img/J8Ms5mToCcF4RYMp1RWw_kibanguschool_tanzania-1.jpg) no-repeat center;background-size:cover;" class="has-header">
+    <form id="signIn-form1" class="list">
+      <div class="spacer" style="width: 300px; height: 220px;"></div>
+      <ion-list id="signIn-list1">
+        <label class="item item-input" id="signIn-input1">
+          <span class="input-label">Username</span>
+          <input type="text" placeholder="">
+        </label>
+        <label class="item item-input" id="signIn-input2">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="">
+        </label>
+      </ion-list>
+      <a ui-sref="menu.subjectList" id="signIn-button1" class="button button-assertive  button-block icon ion-android-person">Log in</a>
+      <a href="#" onclick="window.open('/signup', '_system', 'location=yes'); return false;" id="signIn-button2" class="button button-positive  button-block button-clear icon ion-android-create">Or create an account</a>
+    </form>
+  </ion-content>
+</ion-view>
