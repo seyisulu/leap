@@ -1,3 +1,3 @@
 # leap
-LEAP
+LEAP: 
 Lagos E-learning Android Platform
